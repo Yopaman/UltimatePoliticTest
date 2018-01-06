@@ -1,0 +1,41 @@
+.container {
+	height: 100vh;
+}
+
+.test {
+	height: 100vh;
+}
+
+.question {
+	height: 50%;
+	margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  	transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.boutons {
+	height: 50%;
+}
+
+.question {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.question:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.capicomu {
+  position: relative;
+  height: 14rem;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 100px;
+  font-size: 2em;
+}
